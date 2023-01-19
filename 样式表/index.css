@@ -15,7 +15,7 @@ html{
     width: 75%;
     margin:0 auto;
     padding-bottom: 40px;
-    margin-top: 20vh;
+    margin-top: 15vh;
     border-radius: 10px;
 }
 
@@ -35,10 +35,39 @@ a:visited,a:link{
 
 p{
     word-spacing: 3px;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-name: xian;
+    animation-duration: 4s;
 }
 
 h1{
     color: rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+}
+
+a{
+    animation: shan 3s ease infinite;
+}
+/*定义动画*/
+@keyframes xian{
+    from{
+        color: rgba(0, 0, 0, 0);
+    }
+    to{
+        color: black;
+    }
+}
+
+@keyframes shan{
+    0%{
+        color: rgba(0, 0, 0, 0);
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: rgba(0, 0, 0, 0);
+    }
 }

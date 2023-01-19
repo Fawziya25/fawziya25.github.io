@@ -26,11 +26,27 @@ main a{
 }
 
 h1{
+    margin: 0 auto;
+    margin-top: 10vh;
+    overflow: hidden;
+    padding: 0ch;
     text-align: center;
-    padding: 10vh;
     font-size: 40px;
-    letter-spacing: 1vw;
+    letter-spacing: 5px;
+    font-family: Consolas, Monaco, monospace;
     font-weight: 300;
+    /*文字输入效果*/
+    box-sizing: content-box;
+    animation: 5s ease shuru 1;
+}
+/*动画 输入*/
+@keyframes shuru{
+    0%{
+        width: 0em;
+    }
+    100%{
+        width: 8em;
+    }
 }
 
 header{

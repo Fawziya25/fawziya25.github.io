@@ -1,0 +1,80 @@
+html{
+    background-image: url(../图片/简介背景.png);
+}
+
+h1,body,hr{
+    margin: 0%;
+}
+
+hr{
+    border-color: black;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 0.3em;
+    animation: 5s ease shuru 1;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+#hello{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    margin: 5vw;
+    background-color: rgba(240, 248, 255, 0.761);
+    border-radius: 10px;
+}
+
+#c0{
+    padding: 5vw;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 45vw;
+    float: left;
+    padding: 5vw;
+}
+
+#C{
+    display: flex;
+}
+
+#c2{
+    border-left: 2px black solid;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.fanhui{
+    text-align: center;
+}
+
+a{
+    position:fixed;
+    bottom: 20px;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+@keyframes shuru{
+    0%{
+        width: 0em;
+    }
+    100%{
+        width: 266px;
+    }
+}
