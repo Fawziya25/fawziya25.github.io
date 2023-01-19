@@ -1,0 +1,46 @@
+html{
+    background-image: url(../图片/菜单背景.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 4px;
+    width: 600px;
+    overflow: auto;
+}
+
+h1{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+a{
+    position:fixed;
+    bottom: 20px;
+    text-align: center;
+}
+
+.fanhui{
+    text-align: center;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#card::-webkit-scrollbar{
+    width: 20px;
+    height: 5px;
+}
+
+#card::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #696666;
+}
